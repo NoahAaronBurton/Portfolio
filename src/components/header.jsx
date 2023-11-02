@@ -1,7 +1,11 @@
 function Header() {
-    const headerEl = <h1>Noah</h1>
+    
 
-    return headerEl
+    return (
+        <div id ="header" className="container-fluid text-center">
+            <img src="src/assets/name-header.png" alt="Noah-Aaron-Burton" id="name-header" className="img-fluid" />
+        </div>
+    )
 }
 
 export default Header
