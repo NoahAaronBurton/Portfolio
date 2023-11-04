@@ -4,13 +4,12 @@ body {
 
 }
 
-/* 
-#header-row {
-  position: fixed;
-  top: 0
+.navbar {
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
-#about-row {
-  position: relative;
-  top: 1;
-} */
+#name-header {
+  max-width: 75%;
+  height: auto;
+}
