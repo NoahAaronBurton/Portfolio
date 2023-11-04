@@ -1,15 +1,16 @@
 body {
   background: linear-gradient(to bottom, #231B1B 75%, #FFD2FC );
   color: white;
+
 }
 
-/* the whole header */
-#header {
+/* 
+#header-row {
   position: fixed;
-  top: 0;
+  top: 0
 }
 
-/* ! not sure to use max width for columns yet */
-#name-header {
-  /* max-width: 75%; */ 
-}
+#about-row {
+  position: relative;
+  top: 1;
+} */
