@@ -1,15 +1,71 @@
 body {
   background: linear-gradient(to bottom, #231B1B 75%, #FFD2FC );
   color: white;
+  align-items: flex-start;
 
 }
 
-.navbar {
-  padding-top: 20px;
+#header-row {
+  position: sticky;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+#header {
+  max-width: 80%;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: serif;
+
+  text-decoration: none; /* Remove underlines by default */
+  transition: color 0.3s, text-decoration 0.3s;
+  
+}
+
+.nav-link:hover {
+  color: #FFD2FC; /* Text color on hover */
+  text-decoration: underline;
+}
+
+#nav-container a{
+
+}
+
+
+
+#menu-button {
+  /* position: fixed; */
+  /* top: 150px;
+  left: 75px; */
+
+}
+
+/* .navbar {
+  padding-top: 20px;s
   padding-left: 10px;
 }
 
 #name-header {
   max-width: 75%;
   height: auto;
+} */
+
+/* Use Bootstrap's 'btn-sm' class for smaller screens */
+@media (max-width: 768px) {
+  #menu-button {
+    /* Apply the 'btn-sm' class for smaller screens */
+    width: auto; /* Optionally, set 'width' to 'auto' for Bootstrap's default small button size */
+    height: auto; /* Optionally, set 'height' to 'auto' for Bootstrap's default small button size */
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  #menu-button {
+    width: 40px;
+    height: 40px;
+  }
 }
