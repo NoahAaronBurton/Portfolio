@@ -5,10 +5,10 @@ function Nav() {
     
     const buttonStyle = {
        backgroundImage: `url(${menuIcon})`, // Set the PNG image as the background
-        backgroundSize: '60px 60px', //? make larger
+        backgroundSize: '50px 50px', //? make larger
         backgroundRepeat: 'no-repeat',
-        width: '60px', 
-        height: '60px', //? make larger 
+        width: '50px', 
+        height: '50px', //? make larger 
         border: 'none',
         cursor: 'pointer', // Add a pointer cursor to indicate it's clickable
 
