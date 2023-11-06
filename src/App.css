@@ -10,35 +10,10 @@ p {
   margin-right: 20px;
 }
 
-.text-container {
-  overflow: auto; /* Clear the float to prevent layout issues */
+.header-row {
+  top: 0;
+  z-index: 100;
 }
-
-#header-row {
-  position: sticky;
-  padding: 20px;
-  padding-top: 30px;
-}
-#about-row{
-
-}
-
-#header {
-  max-width: 80%;
-}
-
-/* ! this may not work as expected */
-#noah-headshot {
-  float:left;
-  margin-right: 20px; /* Add some margin to create space between the image and text */
-  max-height: 300px;
-  max-width: 200px;
-}
-
-#pic-text-row {
-  /* justify-content: space-between; */
-}
-
 .nav-link {
   font-size: 20px;
   text-decoration: none; /* Remove underlines by default */
@@ -50,6 +25,19 @@ p {
   color: #FFD2FC; /* Text color on hover */
   text-decoration: underline;
 }
+
+#about-row{
+  margin-top: 50px;
+}
+
+/* ! this may not work as expected */
+#noah-headshot {
+  float:left;
+  margin-right: 20px; /* Add some margin to create space between the image and text */
+  max-height: 300px;
+  max-width: 200px;
+}
+
 
 
 @media (max-width: 768px) {
