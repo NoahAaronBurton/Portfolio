@@ -26,6 +26,23 @@ p {
   text-decoration: underline;
 }
 
+.col-4 {
+  padding-bottom: 20px;
+}
+
+.card-body {
+  background: #CED3D8;
+  padding: 2px;
+}
+
+.card-title {
+  /* color: white; */
+}
+
+.card-img-top {
+  background-color: transparent;
+}
+
 #about-row{
   margin-top: 50px;
 }
@@ -33,6 +50,7 @@ p {
 /* ! this may not work as expected */
 #noah-headshot {
   float:left;
+  padding-bottom: 5px;
   margin-right: 20px; /* Add some margin to create space between the image and text */
   max-height: 300px;
   max-width: 200px;

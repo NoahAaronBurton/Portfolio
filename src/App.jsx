@@ -7,37 +7,32 @@ function App() {
   const projects = [
     { 
       title: 'Example 1',
-      imgUrl: 'src/assets/menu-icon.png',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
     { 
       title: 'Example 2',
-      imgUrl: '/src/assets/react.svg',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
     { 
       title: 'Example 3',
-      imgUrl: '/src/assets/react.svg',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
     { 
       title: 'Example 4',
-      imgUrl: '/src/assets/react.svg',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
     { 
       title: 'Example 5',
-      imgUrl: '/src/assets/react.svg',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
     { 
       title: 'Example 6',
-      imgUrl: '/src/assets/react.svg',
-      link: 'https://www.youtube.com/'
-    },
-    { 
-      title: 'Example 7',
-      imgUrl: '/src/assets/react.svg',
+      src: 'assets/menu-icon.png',
       link: 'https://www.youtube.com/'
     },
   ]
@@ -86,19 +81,19 @@ function App() {
     <div className='row align-items-start' id="projects">
       <div className='col-2'></div>
       <div className='col-10'>
+        <div className='row'>
+            <h2>My Work</h2>
+            
+            {projects.map((project, index) => (
+              <Project
+              //* this values should match the component args PLUS a key value
+                key={index}
+                title={project.title}
+                src={project.src}
+                link={project.link}
+              />
+          ))}
 
-        <div className='grid gap-3'>
-          <h2>My Work</h2>
-          
-          {projects.map((project, index) => (
-            <Project
-              key={index}
-              title={project.title}
-              // description={project.description}
-              imageUrl={project.imageUrl}
-            />
-        ))}
-         
         </div>  
       </div>
     </div>

@@ -1,18 +1,21 @@
 import React from "react";
 
-function Project({ title, link, imgUrl }) {
-    return (
 
-            <div className="p-2 g-col-6">
-                <div className="card">
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <img src={imgUrl} alt={title} />
-                        <a href={link} className="card-link">GitHub</a>
-                    </div>
-                </div>
-            </div>
-    )
+
+function Project({ title, link, src }) {
+  return (
+    <div className="col-4">
+      <div className="card text-center mb-3">
+        <img src={src} className="card-img-top" alt={title} />
+        <div className="card-body">
+          <h4 className="card-title"> <b>{title}</b> </h4>
+          <a href={link} className="btn">
+            <img src="/assets/github-mark.png" width="32" height="32" alt="github-logo" />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Project;

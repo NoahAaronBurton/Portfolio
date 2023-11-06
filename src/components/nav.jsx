@@ -1,5 +1,5 @@
 //! remember to put leading slashes on the imports/
-import menuIcon from '/src/assets/menu-icon.png'
+import menuIcon from '/assets/menu-icon.png'
 
 function Nav() {
     
