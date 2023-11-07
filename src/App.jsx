@@ -48,7 +48,7 @@ function App() {
           <div className="col-10">
             <div id="header">
               <img
-                src="src/assets/name-header.png"
+                src="assets/name-header.png"
                 alt="Noah-Aaron-Burton"
                 id="name-header"
                 className="img-fluid"
@@ -65,7 +65,7 @@ function App() {
               <img 
                 id='noah-headshot' 
                 className='left-floated-image' 
-                src="src/assets/noah-headshot.jpg" 
+                src="assets/noah-headshot.jpg" 
                 alt="noah-headshot-smiling" />
               <p>
                 Hello, I'm Noah Burton, a dedicated and passionate student currently enrolled in the University of Utah's coding bootcamp. With a strong desire to pursue a career in front-end software development, I am actively seeking employment opportunities that will allow me to utilize my skills and contribute to a dynamic web development team. Apart from my academic pursuits, I find immense joy in creating music, strumming my guitar, and camping.
