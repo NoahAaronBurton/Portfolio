@@ -31,7 +31,7 @@ function App() {
       link: 'https://github.com/NoahAaronBurton/pokesquad'
     },
     { 
-      title: 'READ.ME CLI Express',
+      title: 'READ.ME Express',
       src: 'assets/readme.png',
       link: 'https://github.com/NoahAaronBurton/readme-cli-express'
     },

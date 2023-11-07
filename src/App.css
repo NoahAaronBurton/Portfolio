@@ -29,10 +29,11 @@ p {
 .col-4 {
   padding-bottom: 20px;
 }
-
+/* todo: text overflow */
 .card-body {
   background: #CED3D8;
   padding: 2px;
+  height: 100px ;
 }
 
 .card-title {
@@ -62,6 +63,10 @@ p {
   
 
   .nav-link {
+    font-size: 14px;
+  }
+
+  .card-title {
     font-size: 14px;
   }
 
