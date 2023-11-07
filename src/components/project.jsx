@@ -6,7 +6,7 @@ function Project({ title, link, src }) {
   return (
     <div className="col-4">
       <div className="card text-center mb-3">
-        <img src={src} className="card-img-top" alt={title} />
+        <img src={src} className="card-img-top" alt={title} width="100" height="150" />
         <div className="card-body">
           <h4 className="card-title"> <b>{title}</b> </h4>
           <a href={link} className="btn">

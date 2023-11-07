@@ -6,34 +6,34 @@ import './App.css';
 function App() {
   const projects = [
     { 
-      title: 'Example 1',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'My Tech Blog',
+      src: 'assets/tech-blog.png',
+      link: 'https://github.com/NoahAaronBurton/noahs-tech-blog'
     },
     { 
-      title: 'Example 2',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'Park Planner',
+      src: 'assets/parks-planner.png',
+      link: 'https://github.com/Leucisticboi/ParksPlanner'
     },
     { 
-      title: 'Example 3',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'Social API',
+      src: 'assets/social-api.png',
+      link: 'https://github.com/NoahAaronBurton/social-api'
     },
     { 
-      title: 'Example 4',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'Quick SVG',
+      src: 'assets/quick-svg.png',
+      link: 'https://github.com/NoahAaronBurton/quick-svg'
     },
     { 
-      title: 'Example 5',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'pokesquads',
+      src: 'assets/pokeball-background.JPG',
+      link: 'https://github.com/NoahAaronBurton/pokesquad'
     },
     { 
-      title: 'Example 6',
-      src: 'assets/menu-icon.png',
-      link: 'https://www.youtube.com/'
+      title: 'READ.ME CLI Express',
+      src: 'assets/readme.png',
+      link: 'https://github.com/NoahAaronBurton/readme-cli-express'
     },
   ]
 
@@ -86,7 +86,7 @@ function App() {
             
             {projects.map((project, index) => (
               <Project
-              //* this values should match the component args PLUS a key value
+              //* these values should match the component args PLUS a key value
                 key={index}
                 title={project.title}
                 src={project.src}
