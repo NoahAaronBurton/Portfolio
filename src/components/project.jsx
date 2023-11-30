@@ -1,20 +1,26 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
-function Project({ title, link, src }) {
+function Project({ projects }) {
   return (
-    <div className="col-4">
-      <div className="card text-center mb-3">
-        <img src={src} className="card-img-top" alt={title} width="100" height="200" />
-        <div className="card-body">
-          <h4 className="card-title"> <b>{title}</b> </h4>
-          <a href={link} className="btn">
-            <img src="/assets/github-mark.png" width="32" height="32" alt="github-logo" />
-          </a>
-        </div>
-      </div>
-    </div>
+    <Carousel>
+      {projects.map((project, index) => (
+        <Carousel.Item key={index}>
+          <img
+            className="d-block w-100"
+            src={project.src}
+            alt={project.title}
+          />
+          <Carousel.Caption>
+            <h3>{project.title}</h3>
+            <a href={project.link} className="btn btn-transparent">
+              <img src="/assets/github-mark.png" alt="github-logo" style={{ width: '30px', height: '30px' }} />
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
+    </Carousel>
   );
 }
 

@@ -83,8 +83,10 @@ function App() {
       <div className='col-10'>
         <div className='row'>
             <h2>My Work</h2>
+
+            <Project projects={projects}></Project>
             
-            {projects.map((project, index) => (
+            {/* {projects.map((project, index) => (
               <Project
               //* these values should match the component args PLUS a key value
                 key={index}
@@ -92,7 +94,7 @@ function App() {
                 src={project.src}
                 link={project.link}
               />
-          ))}
+          ))} */}
 
         </div>  
       </div>
