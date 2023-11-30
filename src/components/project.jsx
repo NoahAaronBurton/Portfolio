@@ -15,7 +15,7 @@ function Project({ projects }) {
           <Carousel.Caption>
             <h3>{project.title}</h3>
             <a href={project.link} className="btn btn-transparent">
-              <img src="/assets/github-mark.png" alt="github-logo" style={{ width: '30px', height: '30px' }} />
+              <img src="public/assets/white-github.png" alt="github-logo" style={{ width: '30px', height: '30px' }} />
             </a>
           </Carousel.Caption>
         </Carousel.Item>
