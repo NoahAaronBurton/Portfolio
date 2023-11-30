@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto+Slab:wght@300;400&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  /* align-items: flex-start; */
   background: linear-gradient(to bottom, #231B1B 75%, #FFD2FC );
   color: white;
-  align-items: flex-start;
   font-family: 'Roboto Slab', serif;
 }
 
 p {
   text-align: justify; 
   margin-right: 20px;
+}
+
+.content-container {
+  /* Adjust this value to get the alignment you want */
 }
 
 /* my work carousel */
@@ -32,6 +38,18 @@ p {
   background-color: transparent;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
 }
+#projects{
+  max-width: 100%;
+  /* Adjust this value to get the size you want */
+  /* overflow: hidden;  */
+}
+
+#projects img {
+  width: 100%; /* Take up the full width of the container */
+  height: 500px; /* Set a specific height */
+  overflow: hidden;
+}
+
 /* ----- */
 
 
@@ -82,6 +100,11 @@ p {
   max-width: 200px;
 }
 
+#header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -90,11 +113,5 @@ p {
   .nav-link {
     font-size: 14px;
   }
-
-  .card-title {
-    font-size: 14px;
-  }
-
-
 }
 
