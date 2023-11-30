@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto+Slab:wght@300;400&display=swap');
+
 body {
   background: linear-gradient(to bottom, #231B1B 75%, #FFD2FC );
   color: white;
   align-items: flex-start;
-  font-family: serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
