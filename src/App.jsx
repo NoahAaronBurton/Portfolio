@@ -1,6 +1,7 @@
 
 import Nav from './components/nav';
 import Project from './components/project';
+import Contact from './components/contact';
 import './App.css';
 
 function App() {
@@ -80,8 +81,9 @@ function App() {
           <div  >
             <Project projects={projects}></Project>
           </div>
-          <div id="contact">
-            <h2>Contact me</h2>
+          <div >
+            <h2 id="contact" >Contact Me</h2>
+            <Contact></Contact>
           </div>
         </div>
       </div>

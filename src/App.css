@@ -14,9 +14,15 @@ p {
   margin-right: 20px;
 }
 
-.content-container {
-  /* Adjust this value to get the alignment you want */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* .contact-container p, .contact-container a {
+  display: inline-block;
+} */
 
 /* my work carousel */
 .carousel-item::before {
@@ -40,8 +46,6 @@ p {
 }
 #projects{
   max-width: 100%;
-  /* Adjust this value to get the size you want */
-  /* overflow: hidden;  */
 }
 
 #projects img {
@@ -72,26 +76,16 @@ p {
 .col-4 {
   padding-bottom: 20px;
 }
-/* todo: text overflow */
-/* .card-body {
-  background: #CED3D8;
-  padding: 2px;
-  height: 100px ;
+
+.contact-container {
+  margin-bottom: 50px;
 }
 
-.card-title {
-  /* color: white; */
-/* }
-
-.card-img-top {
-  background-color: transparent;
-} */ */
 
 #about-row{
   margin-top: 50px;
 }
 
-/* ! this may not work as expected */
 #noah-headshot {
   float:left;
   padding-bottom: 5px;
@@ -105,6 +99,10 @@ p {
   margin-bottom: 50px;
 }
 
+#about-row , #contact, #projects {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 
 @media (max-width: 768px) {
