@@ -55,9 +55,9 @@ function App() {
           </div>
           {/* About Me Section */}
             <div>
-              <h2>About Me</h2>
+              <h2 id="about-row">About Me</h2>
             </div>
-          <div id="about-row">
+          <div>
             <img 
               id='noah-headshot' 
               className='left-floated-image' 
@@ -75,10 +75,13 @@ function App() {
           </div>
           {/* Projects Section */}
             <div>
-              <h2>My Work</h2>
+              <h2 id="projects">My Work</h2>
             </div>
-          <div id="projects" >
+          <div  >
             <Project projects={projects}></Project>
+          </div>
+          <div id="contact">
+            <h2>Contact me</h2>
           </div>
         </div>
       </div>

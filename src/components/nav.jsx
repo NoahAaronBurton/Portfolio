@@ -35,13 +35,13 @@ function Nav() {
                 </a>
               </li>
               <li className='nav-item'>
-                <a href="/" className='nav-link'>About Me</a>
+                <a href="#about-row" className='nav-link'>About Me</a>
               </li>
               <li className='nav-item'>
-                <a href="/" className='nav-link'>Portfolio</a>
+                <a href="#projects" className='nav-link'>Portfolio</a>
               </li>
               <li className='nav-item'>
-                <a href="/" className='nav-link'>Contact</a>
+                <a href="#contact" className='nav-link'>Contact</a>
               </li>
             </ul>
           </div>
